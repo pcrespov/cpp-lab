@@ -32,9 +32,6 @@ auto operator<<(O & out, const T & s) -> decltype(s,out)
 	return out;
 }
 
-template<class from, class to>
-auto 
-
 int main()
 {
 	std::string str = "a string";
